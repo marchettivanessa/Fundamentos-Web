@@ -2,8 +2,9 @@
 body{
     text-align: center;
     font-family: sans-serif,serif,monospace;
-    background-color: #d0cef0;
+    background-color: #e2edf3;
     color: #202026;
+    scroll-behavior: smooth;
 }
 
 .center{
@@ -22,7 +23,9 @@ ul{
 
   }
 
-
+.justify{
+    text-align: justify;
+}
 .principal{
   background-color: #091a57;
   height: 45px;
@@ -47,27 +50,11 @@ ul{
 
 #bnegro{
     display: flex;
-    flex-flow:  row;
+    flex-flow:  row-reverse;
     justify-content: center;
     align-items: center;
     padding: 30px;
 
-}
-
-#container-video{
-    display: flex;
-    flex-flow:  row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-
-#saibamais{
-    display: flex;
-    flex-flow:  row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
 }
 
 #menu li{
@@ -86,13 +73,12 @@ ul{
 }
 
 .br-50{
-    border-radius: 50%;
+    border-radius: 150%;
 }
 
 .wh{
-    width: 300px;
-    height: 300px;
-    border-radius: 70%;
+    width: 400px;
+    height: 400px;
 }
 
 .tm-logo {
@@ -101,8 +87,16 @@ ul{
 
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 /*Estilo da página contato.html*/
 
 .ml-50 {
     margin-left: 40px;
+}
+
+.p-30 {
+    padding: 60px;
 }
